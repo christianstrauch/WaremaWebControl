@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 25.0.1700.7
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebControl", "WebControl\WebControl.csproj", "{D61012D3-85C0-40A3-ADFF-2B551F6E375E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Test", "Test\Test.csproj", "{6B4C30E1-C3E0-495D-8939-2639C2C5735C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D61012D3-85C0-40A3-ADFF-2B551F6E375E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D61012D3-85C0-40A3-ADFF-2B551F6E375E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D61012D3-85C0-40A3-ADFF-2B551F6E375E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D61012D3-85C0-40A3-ADFF-2B551F6E375E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6B4C30E1-C3E0-495D-8939-2639C2C5735C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6B4C30E1-C3E0-495D-8939-2639C2C5735C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6B4C30E1-C3E0-495D-8939-2639C2C5735C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6B4C30E1-C3E0-495D-8939-2639C2C5735C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4C544140-EAEE-4F72-8689-FA8A47CE3855}
+	EndGlobalSection
+EndGlobal

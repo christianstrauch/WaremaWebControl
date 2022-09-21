@@ -1,0 +1,21 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="EndpointSchema\" />
+    <None Remove="Products\" />
+    <None Remove="Products\ValueTypes\" />
+    <None Remove="Products\Capabilities\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Protocol\" />
+    <Folder Include="Products\" />
+    <Folder Include="Products\ValueTypes\" />
+    <Folder Include="Products\Capabilities\" />
+  </ItemGroup>
+</Project>

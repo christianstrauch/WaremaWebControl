@@ -1,0 +1,12 @@
+/Users/christian/Projects/WaremaWebControl/WebControl/bin/Debug/net6.0/WebControl.deps.json
+/Users/christian/Projects/WaremaWebControl/WebControl/bin/Debug/net6.0/WebControl.dll
+/Users/christian/Projects/WaremaWebControl/WebControl/bin/Debug/net6.0/WebControl.pdb
+/Users/christian/Projects/WaremaWebControl/WebControl/obj/Debug/net6.0/WebControl.csproj.AssemblyReference.cache
+/Users/christian/Projects/WaremaWebControl/WebControl/obj/Debug/net6.0/WebControl.GeneratedMSBuildEditorConfig.editorconfig
+/Users/christian/Projects/WaremaWebControl/WebControl/obj/Debug/net6.0/WebControl.AssemblyInfoInputs.cache
+/Users/christian/Projects/WaremaWebControl/WebControl/obj/Debug/net6.0/WebControl.AssemblyInfo.cs
+/Users/christian/Projects/WaremaWebControl/WebControl/obj/Debug/net6.0/WebControl.csproj.CoreCompileInputs.cache
+/Users/christian/Projects/WaremaWebControl/WebControl/obj/Debug/net6.0/WebControl.dll
+/Users/christian/Projects/WaremaWebControl/WebControl/obj/Debug/net6.0/refint/WebControl.dll
+/Users/christian/Projects/WaremaWebControl/WebControl/obj/Debug/net6.0/WebControl.pdb
+/Users/christian/Projects/WaremaWebControl/WebControl/obj/Debug/net6.0/ref/WebControl.dll
