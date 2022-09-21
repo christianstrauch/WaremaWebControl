@@ -3,36 +3,35 @@
   <MultiItemStartupConfigurations />
   <MonoDevelop.Ide.Workbench ActiveDocument="Test/Program.cs">
     <Files>
-      <File FileName="Test/Program.cs" Line="6" Column="26" />
-      <File FileName="WebControl/Channel.cs" Line="23" Column="14" />
-      <File FileName="WebControl/Protocol/ProtocolResult.cs" Line="127" Column="1" />
-      <File FileName="WebControl/Actor.cs" Line="6" Column="47" />
-      <File FileName="WebControl/Scene.cs" Line="7" Column="1" />
-      <File FileName="WebControl/Products/Capabilities/ICanMove.cs" Line="6" Column="40" />
-      <File FileName="WebControl/Products/Capabilities/ICanTilt.cs" Line="9" Column="1" />
-      <File FileName="WebControl/Products/VenetianBlind.cs" Line="38" Column="1" />
-      <File FileName="WebControl/Products/Capabilities/IUpdateable.cs" Line="13" Column="3" />
-      <File FileName="WebControl/Endpoint.cs" Line="143" Column="1" />
-      <File FileName="WebControl/Protocol/ProtocolCommand.cs" Line="7" Column="30" />
-      <File FileName="WebControl/Protocol/ProtocolParameter.cs" Line="28" Column="1" />
-      <File FileName="WebControl/Protocol/ProtocolOperation.cs" Line="1" Column="1" />
-      <File FileName="WebControl/ProductInfo.cs" Line="24" Column="2" />
-      <File FileName="WebControl/Products/Product.cs" Line="11" Column="46" />
-      <File FileName="WebControl/Products/Awning.cs" Line="8" Column="77" />
-      <File FileName="WebControl/Products/Louvre.cs" Line="9" Column="1" />
-      <File FileName="WebControl/Products/Shutter.cs" Line="9" Column="1" />
-      <File FileName="WebControl/Products/ValueTypes/TiltAngle.cs" Line="31" Column="10" />
+      <File FileName="Test/Program.cs" Line="7" Column="25" />
+      <File FileName="WebControl/Channel.cs" />
+      <File FileName="WebControl/Protocol/ProtocolResult.cs" />
+      <File FileName="WebControl/Actor.cs" />
+      <File FileName="WebControl/Scene.cs" />
+      <File FileName="WebControl/Products/Capabilities/ICanMove.cs" />
+      <File FileName="WebControl/Products/Capabilities/ICanTilt.cs" />
+      <File FileName="WebControl/Products/VenetianBlind.cs" />
+      <File FileName="WebControl/Products/Capabilities/IUpdateable.cs" />
+      <File FileName="WebControl/Endpoint.cs" />
+      <File FileName="WebControl/Protocol/ProtocolCommand.cs" />
+      <File FileName="WebControl/Protocol/ProtocolParameter.cs" />
+      <File FileName="WebControl/Protocol/ProtocolOperation.cs" />
+      <File FileName="WebControl/Products/Product.cs" />
+      <File FileName="WebControl/Products/Awning.cs" />
+      <File FileName="WebControl/Products/Louvre.cs" />
+      <File FileName="WebControl/Products/Shutter.cs" />
+      <File FileName="WebControl/Products/ValueTypes/TiltAngle.cs" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
-          <Node name="WaremaWebControl" expanded="True">
+          <Node name="WaremaWebControl" expanded="True" selected="True">
             <Node name="Test" expanded="True">
               <Node name="Dependencies" expanded="True">
                 <Node name="ProjectDependencies" expanded="True" />
               </Node>
             </Node>
-            <Node name="WebControl" expanded="True" selected="True">
+            <Node name="WebControl" expanded="True">
               <Node name="Products" expanded="True">
                 <Node name="Capabilities" expanded="True" />
                 <Node name="ValueTypes" expanded="True" />
@@ -42,16 +41,13 @@
           </Node>
         </State>
       </Pad>
-      <Pad Id="MonoDevelop.Debugger.WatchPad">
-        <State>
-          <Value>channel.Name</Value>
-        </State>
-      </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.ItemProperties.Test PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <Breakpoint file="/Users/christian/Projects/WaremaWebControl/WebControl/Endpoint.cs" relfile="WebControl/Endpoint.cs" line="143" column="1" />
+    <BreakpointStore>
+      <Breakpoint file="/Users/christian/Projects/WaremaWebControl/WebControl/Endpoint.cs" relfile="WebControl/Endpoint.cs" line="143" column="1" />
+    </BreakpointStore>
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
 </Properties>
