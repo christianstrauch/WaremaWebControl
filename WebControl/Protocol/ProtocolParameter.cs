@@ -37,7 +37,7 @@ namespace WebControl.Protocol
                 RoomIndex,
                 ChannelIndex,
                 Operation == ProtocolOperation.Generic ? null : (int)Operation,
-                string.Join(null, Values.Select<int, string>(v => string.Format("{0:X}", v)))
+                string.Join(null, Values.Select<int, string>(v => string.Format("{0:X2}", v)))
                 ).ToLower();
         }
     }

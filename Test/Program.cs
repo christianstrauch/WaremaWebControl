@@ -2,23 +2,24 @@
 using WebControl.Products;
 using WebControl.Products.ValueTypes;
 
-var e = new Endpoint("http://webcontrol.fritz.box");
+var e = new Endpoint("http://webcontrol");
 var rooms = e.GetRooms();
 foreach (var r in rooms)
 {
-    Console.WriteLine("{0}: {1}", r.Id, r.Name);
+    Console.WriteLine("Room {0}: {1}", r.Id, r.Name);
     foreach (var c in r.Channels)
     {
-        Console.WriteLine("\t{0}: {1}", c.Id, c.Name);
+        Console.WriteLine("- Channel {0}: {1}", c.Id, c.Name);
         var a = c.Actor;
         if (a is VenetianBlind)
         {
             VenetianBlind blind = a as VenetianBlind;
-            Console.WriteLine("\t\tControl: {0}, Product: {1}", blind.Control, blind.ProductType);
-            Console.WriteLine("\t\tRunning: {0}, Position: {1:P0}, Angle: {2}º", blind.Running, blind.Position, (int)blind.Angle);
+            Console.WriteLine("  Control: {0}, Product: {1}", blind.Control, blind.ProductType);
+            Console.WriteLine("  Running: {0}, Position: {1:P0}, Angle: {2}º", blind.Running, blind.Position, (int)blind.Angle);
 
-            
+            Console.Write("Press u to update this actor or any key to continue...");
             var read = Console.ReadKey();
+            Console.Write($"\r{new string(' ', Console.WindowWidth)}");
             if (read.KeyChar == 'u')
             {
                 Console.Write("New position: ");

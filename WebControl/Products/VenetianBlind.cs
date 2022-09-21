@@ -89,6 +89,11 @@ namespace WebControl.Products
 
         public void Move(decimal? position, TiltAngle? angle)
         {
+            while (Running)
+            {
+                Thread.Sleep(3000);
+                EnsureUpdate();
+            }
             Channel.Room.Source.Move(this, position, angle);
             Update();
         }
